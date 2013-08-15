@@ -13,3 +13,13 @@ Puppet and [librarian-puppet](https://github.com/rodjek/librarian-puppet) ist in
   * Vagrant
   * Virtualbox
   * bundler (``gem install bundler``)
+
+
+##  Howto use
+
+  * clone the repo
+  * $ bundle install
+  * edit Puppetfile
+  * $ bundle exec librarian-puppet install
+  * edit Vagrantfile (optional)
+  * $ vagrant up
